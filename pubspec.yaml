@@ -31,11 +31,14 @@ dependencies:
   get_it: ^6.0.0
   http: ^0.13.1
   shared_preferences: ^2.0.5
+  json_annotation: ^4.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   mockito: ^5.0.3
+  json_serializable: ^4.1.0
+  build_runner: ^1.12.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
