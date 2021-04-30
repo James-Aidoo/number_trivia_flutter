@@ -1,7 +1,7 @@
 import 'package:flutter_clean_architecture/features/numbers_trivia/domain/models/number_trivia.dart';
 import 'package:json_annotation/json_annotation.dart';
 
-part 'NumberTriviaModel.g.dart';
+part 'number_trivia_model.g.dart';
 
 @JsonSerializable()
 class NumberTriviaModel extends NumberTrivia {
@@ -11,7 +11,7 @@ class NumberTriviaModel extends NumberTrivia {
   }) : super(number: number, text: text);
 
   factory NumberTriviaModel.fromJson(Map<String, dynamic> json) =>
-      _$NumberTriviaModel.fromJson();
+      _$NumberTriviaModelFromJson(json);
 
-  Map<String, dynamic> toJson() => _$NumberTriviaModel.toJson(this);
+  Map<String, dynamic> toJson() => _$NumberTriviaModelToJson(this);
 }
