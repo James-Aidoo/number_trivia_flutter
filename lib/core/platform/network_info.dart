@@ -1,3 +1,3 @@
-abstract class NetworkInfor {
+abstract class NetworkInfo {
   Future<bool> get isConnected;
 }
